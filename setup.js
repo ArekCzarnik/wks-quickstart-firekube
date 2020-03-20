@@ -57,9 +57,6 @@ const footloose = config => ({
       }, {
         containerPort: 30080,
         hostPort: 30080,
-      },{
-        containerPort: 30232,
-        hostPort: 30232,
       }],
       privileged: privileged(config),
       volumes: volumes(config),

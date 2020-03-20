@@ -21,7 +21,5 @@ machines:
       hostPort: 30443
     - containerPort: 30080
       hostPort: 30080
-    - containerPort: 30232
-      hostPort: 30232
     privileged: false
     volumes: []
